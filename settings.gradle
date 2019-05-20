@@ -1,0 +1,1 @@
+include ':app', ':app_chart_lab', ':app_chart_sqlite', ':app_sqlite_image', ':app_gps', ':app_gps_api', ':app_tts', ':app_tts_geo', ':app_admob', ':app_admob2', ':app_admob3', ':app_iot'

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication3.iml" filepath="$PROJECT_DIR$/MyApplication3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_admob/app_admob.iml" filepath="$PROJECT_DIR$/app_admob/app_admob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_admob2/app_admob2.iml" filepath="$PROJECT_DIR$/app_admob2/app_admob2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_admob3/app_admob3.iml" filepath="$PROJECT_DIR$/app_admob3/app_admob3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_chart_lab/app_chart_lab.iml" filepath="$PROJECT_DIR$/app_chart_lab/app_chart_lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_chart_sqlite/app_chart_sqlite.iml" filepath="$PROJECT_DIR$/app_chart_sqlite/app_chart_sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_gps/app_gps.iml" filepath="$PROJECT_DIR$/app_gps/app_gps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_gps_api/app_gps_api.iml" filepath="$PROJECT_DIR$/app_gps_api/app_gps_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_iot/app_iot.iml" filepath="$PROJECT_DIR$/app_iot/app_iot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_sqlite_image/app_sqlite_image.iml" filepath="$PROJECT_DIR$/app_sqlite_image/app_sqlite_image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_tts/app_tts.iml" filepath="$PROJECT_DIR$/app_tts/app_tts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_tts_geo/app_tts_geo.iml" filepath="$PROJECT_DIR$/app_tts_geo/app_tts_geo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app_admob" />
+            <option value="$PROJECT_DIR$/app_admob2" />
+            <option value="$PROJECT_DIR$/app_admob3" />
+            <option value="$PROJECT_DIR$/app_chart_lab" />
+            <option value="$PROJECT_DIR$/app_chart_sqlite" />
+            <option value="$PROJECT_DIR$/app_gps" />
+            <option value="$PROJECT_DIR$/app_gps_api" />
+            <option value="$PROJECT_DIR$/app_iot" />
+            <option value="$PROJECT_DIR$/app_sqlite_image" />
+            <option value="$PROJECT_DIR$/app_tts" />
+            <option value="$PROJECT_DIR$/app_tts_geo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

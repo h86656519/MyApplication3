@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="./jsapi.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = google.visualization.arrayToDataTable([
+         ['項目', '片', { role: 'style' }],
+         ['Mushroom', %d, '#0000FF'],
+         ['Beef', %d, 'red'],
+         ['Olives', %d, 'orange'],
+         ['Onion', %d, 'color: #005100' ],
+        ]);
+
+        // Set chart options
+        var options = {'title':'我昨晚吃了多少「片」比薩'};
+
+        // Instantiate and draw our chart, passing in some options.
+        // You can set 「ColumnChart」 or 「PieChart」
+        var chart = new google.visualization.%s(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+  </body>
+</html>

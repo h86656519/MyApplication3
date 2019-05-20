@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App_sqlite_image</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_table">CREATE TABLE Product (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, item TEXT, price NUMERIC, image TEXT, tdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP)</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/lat_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Lat"
+        android:inputType="textPersonName"
+        android:text="25.047795"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lng_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Lng"
+        android:inputType="textPersonName"
+        android:text="121.516900"
+        android:textSize="24sp" />
+
+    <Button
+        android:onClick="onClick"
+        android:layout_margin="10sp"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="經緯轉地址"
+        android:textSize="24sp" />
+    <Button
+        android:onClick="onClick"
+        android:layout_margin="10sp"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址轉經緯"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_margin="10sp"
+        android:id="@+id/addr_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address ??"
+        android:textSize="24sp" />
+</LinearLayout>
